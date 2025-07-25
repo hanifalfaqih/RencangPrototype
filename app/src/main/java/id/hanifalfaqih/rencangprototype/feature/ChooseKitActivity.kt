@@ -22,10 +22,10 @@ class ChooseKitActivity : AppCompatActivity() {
 
     private fun createDummyData(): List<PlantingKit> {
         return listOf(
-            PlantingKit(R.drawable.ic_launcher_background, "Spicy Chili Kit", "Harvest in 28 days"),
-            PlantingKit(R.drawable.ic_launcher_background, "Speedy Kangkung Kit", "Harvest in 21 days"),
-            PlantingKit(R.drawable.ic_launcher_background, "Cherry Tomato Kit", "Harvest in 35 days"),
-            PlantingKit(R.drawable.ic_launcher_background, "Crispy Lettuce Kit", "Harvest in 25 days")
+            PlantingKit(R.drawable.cabe, "Spicy Chili Kit", "Harvest in 28 days"),
+            PlantingKit(R.drawable.kangkung, "Speedy Kangkung Kit", "Harvest in 21 days"),
+            PlantingKit(R.drawable.tomato, "Cherry Tomato Kit", "Harvest in 35 days"),
+            PlantingKit(R.drawable.kol, "Crispy Lettuce Kit", "Harvest in 25 days")
         )
     }
 }

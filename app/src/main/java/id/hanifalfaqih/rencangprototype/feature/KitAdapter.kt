@@ -40,7 +40,8 @@ class KitAdapter(private val plantingKits: List<PlantingKit>) :
                 val intent = Intent(context, KitDetailActivity::class.java)
                 // Anda bisa mengirim data ke KitDetailActivity jika diperlukan
                  intent.putExtra("KIT_NAME", kit.title)
-                 intent.putExtra("HARVEST_TIME", kit.harvestTime)
+                intent.putExtra("HARVEST_TIME", kit.harvestTime)
+                intent.putExtra("EXTRA_IMAGE_RES_ID", kit.imageResId)
                 context.startActivity(intent)
             }
         }
