@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_my_garden"
+        android:icon="@drawable/ic_my_garden"
+        android:title="My Garden" />
+    <item
+        android:id="@+id/navigation_guidebook"
+        android:icon="@drawable/ic_guidebook"
+        android:title="Guidebook" />
+    <item
+        android:id="@+id/navigation_journal"
+        android:icon="@drawable/ic_journal"
+        android:title="Journal" />
+
+</menu>

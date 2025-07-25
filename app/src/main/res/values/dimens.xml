@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="drawable_padding_small">8dp</dimen>
+    <dimen name="solution_step_margin_bottom">4dp</dimen>
+</resources>
