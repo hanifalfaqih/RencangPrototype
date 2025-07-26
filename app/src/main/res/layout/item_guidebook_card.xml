@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="16dp"
-    app:cardBackgroundColor="@android:color/white"
+    app:cardBackgroundColor="?attr/colorSurfaceVariant"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:textAlignment="center"
-            android:textAppearance="?attr/textAppearanceBodyMedium"/>
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant"/>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

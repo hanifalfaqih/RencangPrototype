@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RencangPrototype">
+        android:theme="@style/Base.Theme.RencangPrototype">
         <activity
             android:name=".feature.ChooseKitActivity"
             android:exported="true">

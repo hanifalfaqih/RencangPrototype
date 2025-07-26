@@ -29,7 +29,7 @@ class GuidebookAdapter(private val problemList: List<ProblemGuideItem>) :
         fun bind(problem: ProblemGuideItem) {
             binding.ivProblemIcon.setImageResource(problem.iconResId)
             // Set icon tint to green
-            binding.ivProblemIcon.setColorFilter(ContextCompat.getColor(itemView.context, R.color.green)) // Ensure R.color.green is defined
+            binding.ivProblemIcon.setColorFilter(ContextCompat.getColor(itemView.context, R.color.md_theme_light_primary)) // Ensure R.color.green is defined
             binding.tvProblemName.text = problem.name
 
             itemView.setOnClickListener {
