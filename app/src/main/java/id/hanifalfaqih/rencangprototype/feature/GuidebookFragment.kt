@@ -1,11 +1,14 @@
 package id.hanifalfaqih.rencangprototype.feature
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import id.hanifalfaqih.rencangprototype.R
 import id.hanifalfaqih.rencangprototype.databinding.FragmentGuidebookBinding
 
@@ -37,6 +40,10 @@ class GuidebookFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setupRecyclerView()
+
+        binding.fabAiScanner.setOnClickListener {
+            startActivity(Intent(requireContext(), AiScanActivity::class.java))
+        }
 
         // TODO: Implement SearchView functionality
     }
